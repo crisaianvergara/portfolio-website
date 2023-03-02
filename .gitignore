@@ -1,0 +1,16 @@
+# Ignore Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+
+# Ignore generated files
+*.sqlite3
+*.pyc
+
+# Ignore environment variables file
+.env
+
+\.vscode
