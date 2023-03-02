@@ -28,7 +28,8 @@
     />
   </head>
   <body>
-    <main class="main">{% block content %} {% endblock %}</main>
+    <main class="container">{% block content %} {% endblock %}</main>
+    {% if title == "Home" %}
     <footer class="text-center fixed-bottom">
       <ul class="m-0 p-0">
         <li class="d-inline-block">
@@ -63,6 +64,7 @@
         </li>
       </ul>
     </footer>
+    {% endif %}
     <!-- Fontawesome -->
     <script
       src="https://kit.fontawesome.com/543a846626.js"
